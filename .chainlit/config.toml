@@ -75,12 +75,13 @@ github = "https://github.com/RokasTara/sustainable-travel-assistant"
     #font_family = "Inter, sans-serif"
 # Override default MUI light theme. (Check theme.ts)
 [UI.theme.light]
-    #background = "#FAFAFA"
-    #paper = "#FFFFFF"
+    # candidate blue - background = "#C9DAEA"
+    background = "#E2EBF3"
+    paper = "#FFFFFF"
 
     [UI.theme.light.primary]
         main = "#202022"
-        #dark = "#980039"
+        dark = "#980039"
         light = "#f4f6f8"
 
 # Override default MUI dark theme. (Check theme.ts)

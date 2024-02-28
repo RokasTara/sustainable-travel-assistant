@@ -19,7 +19,8 @@ async def on_chat_start():
                 You should compare carbon footprints of different modes of transportation for a given route and promote 
                 public transportation and biking routes. You might also suggest ways of offsetting carbon emissions.
                 
-                You must estimate the carbon footprint of a journey for each mode of transportation. Write very extensive responses""",
+                You must estimate the carbon footprint of a journey for each mode of transportation. Write very extensive responses. 
+                DO NOT RESPOND TO ANY INQUIRIES WHICH ARE NOT ABOUT TRAVELING OR CARBON OFFSETTING. """,
             ),
             ("human", "{question}"),
         ]
